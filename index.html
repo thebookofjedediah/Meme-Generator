@@ -1,0 +1,39 @@
+<!-- All code written by Jedediah Arnold -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coda:wght@800&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <section id="header-area">
+        <h1>No. 1 Meme Generator</h1>
+        <h3>To begin, add a URL to the image you want to use and text to the top and bottom text areas.</h3>
+        <p id="disclaimer">*if you get a black background, this means your image URL was not valid.</p>
+    
+      <section id="formArea">
+        <form action="" id="addMeme">
+          <label for="addImage">Add Image URL Here:</label>
+          <input type="text" id="addImage" placeholder="https://notareallink.io/image.png">
+          <br>
+          <!-- placeholders inspired by the most immature company/meme account on IG - @slimjim -->
+          <label for="addTopText">Add Top Text Here:</label>
+          <input type="text" id="addTopText" placeholder="WHEN SHE BRINGS A SLIM JIM">
+          <br>
+          <label for="addBottomText">Add Bottom Text Here:</label>
+          <input type="text" id="addBottomText" placeholder="LONG BOI GANG">
+          <br>
+          <button type="submit">Create Meme!</button>
+        </form>
+      </section>
+    </section>
+    <h3 id="deleting">To Delete a Meme, double click on it.</h3>
+    <section id="generated-memes">
+    </section>
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>
